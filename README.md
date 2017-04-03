@@ -31,7 +31,7 @@ To start nbdkit use:
 
 `nbdkit ./nbdkit-mtkpreloader-plugin.so -f tty=NODE device=DEVICE`
 
-example : 'nbdkit ./nbdkit-mtkpreloader-plugin.so -f tty=/dev/ttyACA0 device=firetv2'
+example : `nbdkit ./nbdkit-mtkpreloader-plugin.so -f tty=/dev/ttyACA0 device=firetv2`
 
 To create the block device, run xnbd-client:
 
@@ -42,7 +42,7 @@ To mount a partition type:
 
 `mount <NBD PARTITION> <MOUNT POINT> -t ext4 -o inode_readahead=0`
 
-example : mount /dev/nbd0p1 /mnt/p1 -t ext4 -o ro,inode_readhead=0
+example : `mount /dev/nbd0p1 /mnt/p1 -t ext4 -o ro,inode_readhead=0`
 
 After using the mount, unmount it and disconnect xnbd-client:
 
