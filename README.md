@@ -6,9 +6,11 @@ Linux while nbdkit-mtkpreloader will only compile for Linux.
 
 ## Prerequisites
 
-To compile for Windows i686-w64-mingw32-gcc is needed.  To compile for Linux
 nbdkit-plugin-dev is needed to compile the nbdkit plugin.
 
+*bold*Linux GNU/Debian
+preinstallation libaries:
+`apt install TODO`
 To use both of these tools,
 handshake.py (https://gitlab.com/zeroepoch/aftv2-tools/blob/master/handshake.py)
 is required to handshake with the preloader.
