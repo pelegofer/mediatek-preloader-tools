@@ -6,11 +6,11 @@ Linux while nbdkit-mtkpreloader will only compile for Linux.
 
 ## Prerequisites
 
-nbdkit-plugin-dev is needed to compile the nbdkit plugin.
 
-*bold*Linux GNU/Debian
+
+**Linux GNU/Debian**
 preinstallation libaries:
-`apt install TODO`
+`apt-get install nbdkit-plugin-dev`
 To use both of these tools,
 handshake.py (https://gitlab.com/zeroepoch/aftv2-tools/blob/master/handshake.py)
 is required to handshake with the preloader.
